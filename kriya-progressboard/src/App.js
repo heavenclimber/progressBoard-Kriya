@@ -3,7 +3,7 @@ import ProgressBoard from './Component/ProgressBoard';
 
 function App() {
   return (
-    <div class="pb-body">
+    <div className="pb-body">
       <h1>Progress Board</h1>
       <ProgressBoard/>
     </div>

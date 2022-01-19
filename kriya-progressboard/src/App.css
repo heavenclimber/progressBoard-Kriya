@@ -1,10 +1,14 @@
+body{
+  background-color: gainsboro;
+}
+
 .pb-body{
   text-align: center;
 }
 
 .pb-container{
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   gap: 50px;
   flex-wrap: wrap;
@@ -13,8 +17,10 @@
 .pb-board{
   /* height: 300px; */
   min-width: 300px;
-  
-  background-color: aqua;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 5px 5px 10px -6px rgba(0,0,0,0.44);
+
 }
 
 .pb-board p{
@@ -57,4 +63,17 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.pb-task-container{
+  padding: 10px;
+}
+
+.pb-task{
+  padding: 25px;
+  border-radius: 5px;
+  border: 1px black solid;
+  background-color: grey;
+  margin-bottom: 10px;
+  
 }
